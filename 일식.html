@@ -1,28 +1,75 @@
 <!doctype html>
 <html>
   <head>
-    <html style="background-color:skyblue">
+    <html style="background-color:white">
     <meta charset="utf-8">
-    <title> 일 식(Japanese Food) </title>
+    <title> MOOC센터 오늘 뭐 먹지? </title>
+    <style>
+      body {
+        margin:0;
+      }
+      h1 {
+        font-size: 50px;
+        color:blue;
+        text-align:center;
+        text-decoration: none;
+        border-bottom:1px solid black;
+        padding:40px;
+        margin:0;
+      }
+      ol {
+        color:black;
+        font-size: 25px;
+        border-right: 1px solid black;
+        margin:0px;
+        padding:60px;
+      }
+      a {
+        color:black;
+        text-decoration: none;
+      }
+      #한식 {
+        border: 1px solid black;
+        display:grid;
+        grid-template-columns: 1fr 3fr;
+      }
+    </style>
   </head>
 
   <body>
-    <br><br>
-    <h1>
-      <a href="index.html"> <center> MOOC센터 <br> 오늘 뭐 먹지? </center> </a>
-    </h1>
-
-    <br>
-    <center>
-      <h2> ★ 일식으로 갈까? ★ </h2>
-      <img src="연어초밥.jpg" width="300">
-      <img src="모밀.jpg" width="300">
-      <img src="돈까스.jpg" width="340">
-      <br>
-      착한 초밥 <br>
-      고씨네 <br>
-      카츠 33 <br>
-      윤스쿡 <br>
-    </center>
+        <h1> MOOC센터 <br> 오늘 뭐 먹지? </h1>
+        <div id="한식">
+          <div>
+            <ol>
+              <h2> ★ M e n u ★ </h2>
+              <li> <a href="한식.html" > 한 식(Korean Food) </a> </li>
+                <br><br>
+              <li> <a href="중식.html" > 중 식(Chinese Food) </a> </li>
+                <br><br>
+              <li> <a href="일식.html"> 일 식(Japanese Food) </a> </li>
+                <br><br>
+              <li> <a href="베트남 음식.html"> 베트남 음식(Vietnamses Food) </a> </li>
+                  <br><br>
+              <li> <a href="분식.html"> 분 식(Boon Sik) </a> </li>
+                <br><br>
+              <li> <a href="치킨.html"> 치 킨(Chicken) </a> </li>
+                <br><br>
+              <li> <a href="피자.html"> 피 자(Pizza) </a> </li>
+            </ol>
+          </div>
+          <div>
+            <center>
+              <h2> ★ 일식으로 갈까? ★ </h2>
+              <img src="연어초밥.jpg" width="300">
+              <img src="모밀.jpg" width="300">
+              <img src="돈까스.jpg" width="340">
+              <br>
+              착한 초밥 <br>
+              고씨네 <br>
+              카츠 33 <br>
+              윤스쿡 <br>
+            </center>
+          </div>
+        </div>
   </body>
 </html>

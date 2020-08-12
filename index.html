@@ -1,65 +1,79 @@
 <!doctype html>
 <html>
   <head>
-    <html style="background-color:skyblue">
+    <html style="background-color:white">
     <meta charset="utf-8">
     <title> MOOC센터 오늘 뭐 먹지? </title>
     <style>
+      body {
+        margin:0;
+      }
+      h1 {
+        font-size: 50px;
+        color:blue;
+        text-align:center;
+        text-decoration: none;
+        border-bottom:1px solid black;
+        padding:40px;
+        margin:0;
+      }
+      ol {
+        color:black;
+        font-size: 25px;
+        border-right: 1px solid black;
+        margin:0px;
+        padding:60px;
+      }
       a {
         color:black;
         text-decoration: none;
       }
-      h1 {
-        font-size:50px;
-        text-align:center;
-      }
-      h2 {
-        text-align: center;
-      }
-      .happy {
-        color:gray;
-      }
-      .active{
-        color:red;
+      #한식 {
+        border: 1px solid black;
+        display:grid;
+        grid-template-columns: 1fr 3fr;
       }
     </style>
   </head>
 
   <body>
-    <br><br>
-    <h1>
-   MOOC센터 <br> 오늘 뭐 먹지?
-    </h1>
-
-    <br>
-    <h2> ★ M e n u ★ </h2>
-
-      <center> <a href="한식.html" class="happy"> <strong> 한 식(Korean Food) </strong> </a> </center>
-        <br><br>
-      <center> <a href="중식.html" class="happy active">  <strong> 중 식(Chinese Food) </strong>  </a> </center>
-        <br><br>
-      <center> <a href="일식.html">  <strong> 일 식(Japanese Food) </strong>  </a> </center>
-        <br><br>
-      <center> <a href="베트남 음식.html">  <strong> 베트남 음식(Vietnamses Food) </li>  </a> </center>
-          <br><br>
-      <center> <a href="분식.html">  <strong> 분 식(Boon Sik)</strong>  </a> </center>
-        <br><br>
-      <center> <a href="치킨.html">  <strong> 치 킨(Chicken) </strong>  </a> </center>
-        <br><br>
-      <center> <a href="피자.html">  <strong> 피 자(Pizza) </strong>  </a> </center>
-
-        <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5f30a0e4ed9d9d2627097364/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+        <h1> MOOC센터 <br> 오늘 뭐 먹지? </h1>
+        <div id="한식">
+          <div>
+            <ol>
+              <h2> ★ M e n u ★ </h2>
+              <li> <a href="한식.html" > 한 식(Korean Food) </a> </li>
+                <br><br>
+              <li> <a href="중식.html" > 중 식(Chinese Food) </a> </li>
+                <br><br>
+              <li> <a href="일식.html"> 일 식(Japanese Food) </a> </li>
+                <br><br>
+              <li> <a href="베트남 음식.html"> 베트남 음식(Vietnamses Food) </a> </li>
+                  <br><br>
+              <li> <a href="분식.html"> 분 식(Boon Sik) </a> </li>
+                <br><br>
+              <li> <a href="치킨.html"> 치 킨(Chicken) </a> </li>
+                <br><br>
+              <li> <a href="피자.html"> 피 자(Pizza) </a> </li>
+            </ol>
+          </div>
+          <div>
+            <center>
+              <h2> ★ 한식으로 갈까? ★ </h2>
+              <img src="유성김치찜.jpg" width="350">
+              <img src="알촌.jpg" width="230">
+              <img src="찜닭.jpg" width="400">
+              <br>
+                김가네 <br>
+                한솥 도시락 <br>
+                사나이 뚝배기 <br>
+                내가 찜한 닭 <br>
+                유성 김치찜 <br>
+                작은집 . 후문식당 <br>
+                알 촌 <br>
+                갈비찜닭 <br>
+            </center>
+          </div>
+        </div>
   </body>
 </html>
